@@ -309,6 +309,8 @@
                 </activation>
             <properties>
                 <additionalparam>-Xdoclint:none</additionalparam>
+                <commons-io.version>2.22.0</commons-io.version>
+                <slf4j.version>2.0.18</slf4j.version>
             </properties>
         </profile>
         <profile>
@@ -504,12 +506,15 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>${commons-io.version}</version>
+<<<<<<< Updated upstream
             <scope>test</scope>
         </dependency>
             <!-- For JUnit Jupiter -->
             <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
+=======
+>>>>>>> Stashed changes
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -517,12 +522,15 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+<<<<<<< Updated upstream
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
                 <version>${javax.servlet-api.version}</version>
                 <optional>true</optional>
             </dependency>
             <dependency>
+=======
+>>>>>>> Stashed changes
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
@@ -543,4 +551,8 @@
     </dependencyManagement>
 
 
+<<<<<<< Updated upstream
 </project>
+=======
+<distributionManagement><repository><id>2624322-release-6F6h6R</id><name>Maven Release Repository</name><url>https://packages.aliyun.com/6927b116e6c3e0425dbdf60d/maven/2624322-release-6f6h6r</url><releases><enabled>true</enabled></releases><snapshots><enabled>false</enabled></snapshots></repository><snapshotRepository><id>2624322-snapshot-3EoOv3</id><name>Maven Snapshot Repository</name><url>https://packages.aliyun.com/6927b116e6c3e0425dbdf60d/maven/2624322-snapshot-3eoov3</url><releases><enabled>false</enabled></releases><snapshots><enabled>true</enabled></snapshots><uniqueVersion>true</uniqueVersion></snapshotRepository></distributionManagement></project>
+>>>>>>> Stashed changes
